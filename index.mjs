@@ -6,7 +6,6 @@ const port = process.argv[2] || 8000;
 const app = express();
 
 app.get('/img/resize', (req, res) => {
-    console.log(`Worker ${process.pid} got request`);
     const url = req.query.u;
 
     if (!url) {
