@@ -1,0 +1,15 @@
+{
+  "name": "resizer",
+  "version": "1.0.0",
+  "description": "Image resizer service",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "citizen4371@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "sharp": "^0.30.4"
+  }
+}
